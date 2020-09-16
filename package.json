@@ -4,7 +4,8 @@
   "description": "ecobot",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.3.1",
+    "discord.js-commando": "github:discordjs/Commando"
   },
   "devDependencies": {},
   "scripts": {
