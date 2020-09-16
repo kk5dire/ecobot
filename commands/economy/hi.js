@@ -7,7 +7,12 @@ module.exports = class MeowCommand extends Command {
             aliases: ['mew', 'hello'],
 			group: 'general',
 			memberName: 'hi',
-			description: 'Replies with a meow, kitty cat.',
+            description: 'Replies with a meow, kitty cat.',
+            guildOnly: true,
+            throttling: {
+                usages: 2,
+                duration: 10,
+            },
 		});
 	}
 
