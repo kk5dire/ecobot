@@ -197,12 +197,12 @@ if (message.author.bot) return;
 .on('ready', () => {
 	tools.setStatus(client);
 	console.log('ready!');
-	const cuties = ['waking up 🥱', 'uwu 🥨', 'iyr is amazing', 'hewwo', 'restarting', 'ready and waiting', 'aya is awesome'];
+	const cuties = ['waking up 🥱', 'uwu 🥨', 'iyr is amazing', 'hewwo', 'aya is cute 😍', 'ready and waiting', 'aya is awesome'];
 	const cutiesR = cuties[Math.floor(Math.random() * cuties.length)];
 	let embed0 = tools.embed('<a:exclamationMark:746950886580027465> Booting up, Please standby!');
 	embed0.setTimestamp();
 
-	let embed1 = tools.embed('<a:rainbowtick:747762375217905756> Restarted & ready to go!');
+	let embed1 = tools.embed('Successfully Restarted!');
 	embed1.setTimestamp();
 	embed1.setFooter(cutiesR);
 
