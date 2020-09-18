@@ -1,4 +1,4 @@
-// const tools = require('../tools');
+const tools = require('../tools');
 // const {} = require('discord.js');
 // const {} = require('../config.json');
 
