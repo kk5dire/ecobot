@@ -1,0 +1,50 @@
+{
+  "name": "ecobot",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "@sindresorhus/is": "^3.1.2",
+    "abort-controller": "^3.0.0",
+    "asynckit": "^0.4.0",
+    "better-sqlite3": "^7.1.0",
+    "canvas": "^2.6.1",
+    "combined-stream": "^1.0.8",
+    "cpu-stat": "^2.0.1",
+    "dblapi.js": "^2.4.0",
+    "delayed-stream": "^1.0.0",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.x",
+    "enmap": "^5.x",
+    "event-target-shim": "^5.0.1",
+    "got": "^11.x",
+    "is-image-url": "^1.1.8",
+    "log-symbols": "^4.0.0",
+    "mime-db": "^1.44.0",
+    "mime-types": "^2.1.27",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "num-parse": "^1.0.1",
+    "os": "^0.1.1",
+    "prism-media": "^1.2.2",
+    "sagiri": "^1.5.2",
+    "setimmediate": "^1.0.5",
+    "systeminformation": "^4.26.10",
+    "timrjs": "^1.0.1",
+    "tweetnacl": "^1.0.3",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "bot"
+  ],
+  "author": "IYR",
+  "license": "GPL-3.0"
+}
